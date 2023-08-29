@@ -1,4 +1,5 @@
-show running-config
+show running-config
+!This is a dumb change just to track in git
 
 !Command: show running-config
 !Time: Tue Jan  8 23:19:04 2019
@@ -2839,7 +2840,9 @@ monitor session 6
   source interface Ethernet1/48 both
 
 
-DC01CO701001-CORE# show running-config all
+
+DC01CO701001-CORE# show running-config all
+
 
 !Command: show running-config all
 !Time: Tue Jan  8 23:19:10 2019
@@ -13904,9 +13907,15 @@ xml server timeout 1200
 no fabricpath multicast aggregate-routes
 
 
-DC01CO701001-CORE# 
-DC01CO701001-CORE# 
-DC01CO701001-CORE# show startup-config
+
+DC01CO701001-CORE# 
+
+
+DC01CO701001-CORE# 
+
+
+DC01CO701001-CORE# show startup-config
+
 
 !Command: show startup-config
 !Time: Tue Jan  8 23:19:18 2019
@@ -16628,10 +16637,18 @@ monitor session 3
   source vlan 14 both
 
 
-DC01CO701001-CORE# 
-DC01CO701001-CORE# 
-DC01CO701001-CORE# 
-DC01CO701001-CORE# show running-config diff
+
+DC01CO701001-CORE# 
+
+
+DC01CO701001-CORE# 
+
+
+DC01CO701001-CORE# 
+
+
+DC01CO701001-CORE# show running-config diff
+
 *** Startup-config
 --- Running-config
 ***************
@@ -17797,4 +17814,5 @@ monitor session 3
 +   source interface Ethernet1/48 both
   
   
-DC01CO701001-CORE# 
+
+DC01CO701001-CORE# 
