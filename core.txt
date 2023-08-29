@@ -1,5 +1,6 @@
 show running-config
 !This is a dumb change just to track in git
+!This is a change done in github that I expect to see in my local repository with a pull
 
 !Command: show running-config
 !Time: Tue Jan  8 23:19:04 2019
